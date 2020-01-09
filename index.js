@@ -91,7 +91,7 @@ if (action == 'export') {
         database: database
     }
     //node index.js export --host localhost --user root  --pass ''  --database topgame --fx hehe2.sql
-    exec(`${global.gConfig.dir_mysql_bin}mysqldump -u${exportFrom.user} -p${exportFrom.password} -h${exportFrom.host} --compact ${exportFrom.database} > ${fileExportName}`, (err, stdout, stderr) => {
+    exec(`${global.gConfig.dir_mysql_bin}mysqldump -u${exportFrom.user} -p${exportFrom.password} -h${exportFrom.host} --compact ${exportFrom.database} --add-drop-table > ${fileExportName}`, (err, stdout, stderr) => {
         if (err) {
             console.error(`exec error: ${err}`);
             return;
