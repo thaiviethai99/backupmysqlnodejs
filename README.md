@@ -5,5 +5,7 @@ cd backupmysqlnodejs
 npm install
 ```
 #### Config
-```config\config.json
+```
+config\config.json
+
 ```
