@@ -1,0 +1,22 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "Export and Import mysql",
+        "dir_mysql_bin":"D:/xampp/mysql/bin/"
+    },
+    "testing": {
+        "config_id": "testing",
+        "app_name": "Export and Import mysql",
+        "dir_mysql_bin":"D:/xampp/mysql/bin/"
+    },
+    "staging": {
+        "config_id": "staging",
+        "app_name": "Export and Import mysql",
+        "dir_mysql_bin":"D:/xampp/mysql/bin/"
+    },
+    "production": {
+        "config_id": "production",
+        "app_name": "Export and Import mysql",
+        "dir_mysql_bin":"D:/xampp/mysql/bin/"
+    }
+}
